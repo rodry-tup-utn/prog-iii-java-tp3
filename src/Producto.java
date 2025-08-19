@@ -46,4 +46,13 @@ public class Producto {
     public int hashCode() {
         return Objects.hashCode(getCodigo());
     }
+
+    @Override
+    public String toString() {
+        return "Producto{" +
+                "nombre='" + nombre + '\'' +
+                ", codigo='" + codigo + '\'' +
+                ", precio=" + precio +
+                '}';
+    }
 }
